@@ -36,7 +36,7 @@
             <div class="home-content">
                 <h3>Hello, it's Me</h3>
                 <h1>Leatile Baaitse</h1>
-                <h3>And I am a <span><strong>Frontend Developer</strong></span></h3>
+                <h3>And I am a <span class="multiple-text">Frontend Developer</span></h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit nulla vel rerum quisquam adipisci magni ratione ipsam quibusdam. Nostrum ipsa voluptatibus architecto ut eligendi laudantium assumenda deleniti dolor voluptates.
                 </p>
                 <div class="social-media">
@@ -112,7 +112,7 @@
                     <div class="portfolio-layer">
                         <h4>Web Design</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, eius.</p>
-                        <a href="#"><i class='bx bx-link-external' width="100%" height="100%"></i></a>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
 
@@ -121,25 +121,25 @@
                     <div class="portfolio-layer">
                         <h4>Graphics Design</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, eius.</p>
-                        <a href="#"><i class='bx bx-link-external' width="100%" height="100%"></i></a>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
 
                 <div class="portfolio-box">
                     <img src="images/portfolio3.jpg" alt="">
                     <div class="portfolio-layer">
-                        <h4>Comic Art</h4>
+                        <h4>Comic art</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, eius.</p>
-                        <a href="#"><i class='bx bx-link-external' width="100%" height="100%"></i></a>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
 
                 <div class="portfolio-box">
                     <img src="images/porfolio4.png" alt="">
                     <div class="portfolio-layer">
-                        <h4>Artificial Intelligence</h4>
+                        <h4>Artficial Intelligence</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, eius.</p>
-                        <a href="#"><i class='bx bx-link-external' width="100%" height="100%"></i></a>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
 
@@ -148,7 +148,7 @@
                     <div class="portfolio-layer">
                         <h4>Customization</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, eius.</p>
-                        <a href="#"><i class='bx bx-link-external' width="100%" height="100%"></i></a>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
 
@@ -157,7 +157,7 @@
                     <div class="portfolio-layer">
                         <h4>Photoshop</h4>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, eius.</p>
-                        <a href="#"><i class='bx bx-link-external' width="100%" height="100%"></i></a>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
                     </div>
                 </div>
 
@@ -194,5 +194,33 @@
                 <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
             </div>
         </footer>
+
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- typed js -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- custom javascript -->
+        <script src="js/script.js"></script>
+
+          <!-- Element to contain animated typing -->
+        <span id="element"></span>
+
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+            var typed = new Typed('#element', {
+            strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            onComplete: function(self) {
+                self.restart();
+            }
+            });
+        </script>
     </body>
 </html>
