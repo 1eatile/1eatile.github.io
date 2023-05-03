@@ -60,7 +60,7 @@ const typed = new Typed('.multiple-text', {
 });
 
 const typed = new Typed('.multiple-text-display', {
-    strings: ["Angela's boyfriend", "Angela's fiance", "Angela's smoocher", "Angela's true love", "Angela's soulmate", "Angela's eternal partner"],
+    strings: ["Angela's boyfriend", "Angela's fiancé", "Angela's smoocher", "Angela's true love", "Angela's soulmate", "Angela's eternal partner"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
