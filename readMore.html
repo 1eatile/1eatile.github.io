@@ -60,20 +60,21 @@
         <!-- custom javascript -->
         <script src="js/script.js"></script>
 
-          <!-- Element to contain animated typing -->
-        <span id="element"></span>
+          <span id="element"></span>
 
         <!-- Load library from the CDN -->
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
         <!-- Setup and start animation! -->
         <script>
-            const typedSecond = new Typed('.multiple-textSecond', {
-                strings: ['Leatile Baaitse', 'King Baaitse', 'Mongameli Baaitse'],
-                typeSpeed: 100,
-                backSpeed: 100,
-                backDelay: 1000,
-                loop: true
+            var typedSecond = new Typed('#element', {
+            strings: ['Leatile Baaitse', 'King Baaitse', 'Mongameli Baaitse'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            onComplete: function(self) {
+                self.restart();
+            }
             });
         </script>
     </body>
