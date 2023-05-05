@@ -57,4 +57,12 @@ const typed = new Typed('.multiple-text', {
     backSpeed: 100,
     backDelay: 1000,
     loop: true
+});
+
+const typedSecond = new Typed('.multiple-textSecond', {
+    strings: ['Leatile Baaitse', 'King Baaitse', 'Mongameli Baaitse'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
 })
