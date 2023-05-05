@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- meta content -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Leatile Baaitse">
+        <meta name="description" content="Read More About Leatile Baaitse">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- title of webpage -->
+        <title>About Me | Leatile Baaitse</title>
+
+        <!-- The icon of the website -->
+        <link rel="icon" href="images/icon.png" type="image/x-icon">
+
+        <!-- box icons -->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- header design -->
+        <header class="header">
+            <a href="index.html" class="logo">Portfolio</a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="http://127.0.0.1:5500/portfolio/index.html#about">About</a>
+                <a href="http://127.0.0.1:5500/portfolio/index.html#services">Services</a>
+                <a href="http://127.0.0.1:5500/portfolio/index.html#portfolio">Portfolio</a>
+                <a href="http://127.0.0.1:5500/portfolio/index.html#contact">Contact</a>
+            </nav>
+        </header>
+
+        <!-- home section design -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>About <span class="multiple-textSecond">Me</span></h1>
+
+                <p>I was born at the city capital of <span>Gaborone</span>, habouring my birthplace - the largest hospital in the land, <span>Princess Marina Hospital</span>. I am very fond of <span>multiple</span> programming and coding <span>languages</span> that are in high demand in today's arena of technology, software and communication.</p>
+            </div>
+            <div class="home-img">
+                <img src="images/Leatile with his afro.png" alt="Leatile Baaitse">
+            </div>
+        </section>
+
+
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- typed js -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- custom javascript -->
+        <script src="js/script.js"></script>
+
+          <!-- Element to contain animated typing -->
+        <span id="element"></span>
+
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+            const typedSecond = new Typed('.multiple-textSecond', {
+                strings: ['Leatile Baaitse', 'King Baaitse', 'Mongameli Baaitse'],
+                typeSpeed: 100,
+                backSpeed: 100,
+                backDelay: 1000,
+                loop: true
+            });
+        </script>
+    </body>
+
+</html>
